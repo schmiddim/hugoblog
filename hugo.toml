@@ -1,4 +1,4 @@
 baseURL = 'https://blog.itschmitt.com/'
-languageCode = 'de-de'
+languageCode = 'en-en'
 title = 'My New Hugo Site'
 theme = 'ananke'
