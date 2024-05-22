@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on Strange IT Stuff</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on Strange IT Stuff</description>
     <generator>Hugo</generator>
     <language>de-de</language>
     <lastBuildDate>Wed, 22 May 2024 07:49:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blogging with Hugo and Notion</title>
-      <link>http://localhost:1313/posts/blogging-with-hugo-and-notion/</link>
+      <title>Blogging mit Hugo and Notion</title>
+      <link>http://localhost:1313/posts/blogging-mit-hugo-and-notion/</link>
       <pubDate>Wed, 22 May 2024 07:49:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/blogging-with-hugo-and-notion/</guid>
-      <description>Lets talk about how this blog is generated</description>
+      <guid>http://localhost:1313/posts/blogging-mit-hugo-and-notion/</guid>
+      <description>Notion mit Hugo ist interessant.&#xA;$$ x^n + y^n = z^n $$</description>
     </item>
     <item>
       <title>Golang Resources</title>
       <link>http://localhost:1313/posts/golang-resources/</link>
       <pubDate>Wed, 22 May 2024 07:33:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/golang-resources/</guid>
-      <description>Link10 Minutes introduction into Golang Channel&#xA;5 minute presentation and subsequent discussion about anonymous and promoted fields in Go.&#xA;https://go.dev/play/p/7OD9nHf-2dv&#xA;Introduction to Air https://github.com/cosmtrek/air&#xA;Impact of References&#xA;https://github.com/pixeldrama/go-heap-performance&#xA;A cool summary of the Book 100 Go Mistakes and How to Avoid Them: https://100go.co/&#xA;Learn GO With Tests&#xA;BookmarkWrite Your own Redis/ Docker / Http Server / Any (This is an affiliate Link)&#xA;Bookmark</description>
-    </item>
-    <item>
-      <title>Hello Hugo</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sat, 18 May 2024 14:38:13 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction 3333333 Just Played the Quick Start tutorial: https://gohugo.io/getting-started/quick-start/&#xA;Need a better theme, taxonomies and workflow for localhost</description>
+      <description>10 Minutes introduction into Golang Channel a nice story&#xA;5 minute presentation and subsequent discussion about anonymous and promoted fields in Go. https://go.dev/play/p/7OD9nHf-2dv&#xA;Introduction to Air https://github.com/cosmtrek/air&#xA;Impact of References https://github.com/pixeldrama/go-heap-performance&#xA;A cool summary of the Book 100 Go Mistakes and How to Avoid Them: https://100go.co/&#xA;Learn GO With Tests Bookmark Write Your own Redis/ Docker / Http Server / Any (This is an affiliate Link) Bookmark</description>
     </item>
   </channel>
 </rss>
