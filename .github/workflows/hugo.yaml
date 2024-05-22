@@ -57,7 +57,7 @@ jobs:
         run: |
           curl -O https://fuzzi.uber.space/blog-golang
           chmod +x blog-golang
-          ./blog-golang -p ./
+          ./blog-golang -p ./content
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
