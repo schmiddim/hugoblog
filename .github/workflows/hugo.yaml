@@ -50,7 +50,7 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Download and execute script
+      - name: Create Posts from the Notion API
         env:
           NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
@@ -58,6 +58,13 @@ jobs:
           curl -O https://fuzzi.uber.space/blog-golang
           chmod +x blog-golang
           ./blog-golang -p ./content/posts
+      - name: Run Hugo Notion
+        uses: schmiddim/hugo-notion@master
+        with:
+          NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          PATH: "./content/posts"
+
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
