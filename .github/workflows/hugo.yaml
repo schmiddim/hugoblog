@@ -38,7 +38,7 @@ jobs:
         run: |
           curl -O https://fuzzi.uber.space/blog-golang
           chmod +x blog-golang
-          ./blog-golang
+
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
@@ -55,6 +55,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Do the notion stuff
+        run: ./blog-golang -p ./
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
