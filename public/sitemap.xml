@@ -2,17 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/dependabot-steuern/</loc>
+    <lastmod>2024-06-18T20:55:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-05-22T19:02:00+00:00</lastmod>
+    <lastmod>2024-06-18T20:55:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-05-22T19:02:00+00:00</lastmod>
+    <lastmod>2024-06-18T20:55:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/operator-sdk-setup/</loc>
+    <lastmod>2024-05-28T11:55:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/goroutines/</loc>
+    <lastmod>2024-05-22T19:51:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/tooling-f%C3%BCr-golang/</loc>
     <lastmod>2024-05-22T19:02:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/blogging-mit-hugo-and-notion/</loc>
     <lastmod>2024-05-22T07:49:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/golang-reading-list-2024-05-22/</loc>
+    <lastmod>2024-05-22T07:33:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/golang-resources/</loc>
     <lastmod>2024-05-22T07:33:00+00:00</lastmod>

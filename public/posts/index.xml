@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Strange IT Stuff</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 22 May 2024 19:51:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jun 2024 20:55:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dependabot Steuern</title>
+      <link>http://localhost:1313/posts/dependabot-steuern/</link>
+      <pubDate>Tue, 18 Jun 2024 20:55:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dependabot-steuern/</guid>
+      <description>In einer Zeit in der Supply Chain Attacks zum täglichen Brot gehören kommt man ohne Renovate oder den Dependabot nicht mehr aus. Falls man auf Github unterwegs ist kann man mit dieser Action Updates automatisch in die Mainline bekommen&#xA;name: Dependabot auto-approve on: pull_request permissions: pull-requests: write jobs: dependabot: runs-on: ubuntu-latest if: github.actor == &amp;#39;dependabot[bot]&amp;#39; steps: - name: Dependabot metadata id: metadata uses: dependabot/fetch-metadata@v2 with: github-token: &amp;#34;${{ secrets.GITHUB_TOKEN }}&amp;#34; - name: Approve a PR run: gh pr review --approve &amp;#34;$PR_URL&amp;#34; env: PR_URL: ${{github.</description>
+    </item>
+    <item>
+      <title>Operator SDK Setup</title>
+      <link>http://localhost:1313/posts/operator-sdk-setup/</link>
+      <pubDate>Tue, 28 May 2024 11:55:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/operator-sdk-setup/</guid>
+      <description>Ich nutze Rancher Desktop zum lokalen Entwickeln.&#xA;Probleme beim Aufsetzen des SKDs: Läuft nicht mit go 1.22 Lösung: Go Env https://github.com/go-nv/goenv&#xA;git clone https://github.com/syndbg/goenv.git ~/.goenv export GOENV_ROOT=&amp;#34;$HOME/.goenv&amp;#34; export PATH=&amp;#34;$GOENV_ROOT/bin:$PATH&amp;#34; eval &amp;#34;$(goenv init -)&amp;#34; source ~/.bashrc goenv install 1.21.0 goenv shell 1.21.0 Workflow make install run kubectl apply -f config/samples/appoperator_v1alpha1_application.yaml&#xA;// Falls keine CRDS generiert werden muessen einfach aus intellij starten Klappt wunderbar&#xA;Als nächstes: -Delete -Ownership -edit -log Ausgabe ( wie bei deployment) -db config</description>
+    </item>
     <item>
       <title>Goroutines</title>
       <link>http://localhost:1313/posts/goroutines/</link>
@@ -28,6 +42,13 @@
       <pubDate>Wed, 22 May 2024 07:49:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/blogging-mit-hugo-and-notion/</guid>
       <description>Notion mit Hugo ist interessant.&#xA;$$ x^n + y^n = z^n $$</description>
+    </item>
+    <item>
+      <title>Golang Reading List 2024-05-22</title>
+      <link>http://localhost:1313/posts/golang-reading-list-2024-05-22/</link>
+      <pubDate>Wed, 22 May 2024 07:33:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/golang-reading-list-2024-05-22/</guid>
+      <description>5 minute presentation and subsequent discussion about anonymous and promoted fields in Go. https://go.dev/play/p/7OD9nHf-2dv&#xA;Impact of References https://github.com/pixeldrama/go-heap-performance&#xA;A cool summary of the Book 100 Go Mistakes and How to Avoid Them: https://100go.co/&#xA;Learn GO With Tests&#xA;Write Your own Redis/ Docker / Http Server / Any (This is an affiliate Link)</description>
     </item>
     <item>
       <title>Golang Resources</title>
