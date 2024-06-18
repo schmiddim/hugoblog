@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Strange IT Stuff</description>
     <generator>Hugo</generator>
     <language>de-de</language>
-    <lastBuildDate>Wed, 22 May 2024 07:49:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2024 19:51:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Goroutines</title>
+      <link>http://localhost:1313/posts/goroutines/</link>
+      <pubDate>Wed, 22 May 2024 19:51:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/goroutines/</guid>
+      <description>Die wohl interessanteste Funktion in Go heißt go. Damit läßt sich ganz bequem ein Thread starten. Um eine klassische Schleife zu parallelisieren braucht man einen Mechanismus um die Ergebnisse aufzusammeln. Dafür gibt es in der Sprache Channel die einen Tunnel zwischen Threads und Main aufbauen.&#xA;Mit postCh := make(chan data.Post) wird der Channel deklariert und mit postCh &amp;lt;- p schreibt man in den Channel.&#xA;for post := range postCh { if post.</description>
+    </item>
+    <item>
+      <title>Tooling für Golang</title>
+      <link>http://localhost:1313/posts/tooling-f%C3%BCr-golang/</link>
+      <pubDate>Wed, 22 May 2024 19:02:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/tooling-f%C3%BCr-golang/</guid>
+      <description>Ich benutze IntelliJ mit folgenden Plugins&#xA;AceJump&#xA;Go&#xA;Go Template&#xA;Indent Rainbow&#xA;Templ&#xA;Github CoPilot&#xA;Templ funktioniert nicht wirklich gut weil jegliche Completion und Autoformat fehlen ich soltle mir die Issues mal ansehen&#xA;Abseits davon nutze ich das Golang Äquivalent zu NodeMon: Air für Hotreloading. Das macht gerade bei API Projekten und Websites Spaß. Seit 2 Wochen gibt es auch einen schönen Browser Refresh.&#xA;Beispiel Config für Air inklusive templ Support und Browser Refresh</description>
+    </item>
     <item>
       <title>Blogging mit Hugo and Notion</title>
       <link>http://localhost:1313/posts/blogging-mit-hugo-and-notion/</link>
@@ -20,7 +34,7 @@
       <link>http://localhost:1313/posts/golang-resources/</link>
       <pubDate>Wed, 22 May 2024 07:33:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/golang-resources/</guid>
-      <description>10 Minutes introduction into Golang Channel a nice story&#xA;5 minute presentation and subsequent discussion about anonymous and promoted fields in Go. https://go.dev/play/p/7OD9nHf-2dv&#xA;Introduction to Air https://github.com/cosmtrek/air&#xA;Impact of References https://github.com/pixeldrama/go-heap-performance&#xA;A cool summary of the Book 100 Go Mistakes and How to Avoid Them: https://100go.co/&#xA;Learn GO With Tests Bookmark Write Your own Redis/ Docker / Http Server / Any (This is an affiliate Link) Bookmark</description>
+      <description>10 Minutes introduction into Golang Channel a nice story&#xA;5 minute presentation and subsequent discussion about anonymous and promoted fields in Go. https://go.dev/play/p/7OD9nHf-2dv&#xA;Introduction to Air https://github.com/cosmtrek/air&#xA;Impact of References https://github.com/pixeldrama/go-heap-performance&#xA;A cool summary of the Book 100 Go Mistakes and How to Avoid Them: https://100go.co/&#xA;Learn GO With Tests Bookmark&#xA;Write Your own Redis/ Docker / Http Server / Any (This is an affiliate Link) Bookmark</description>
     </item>
   </channel>
 </rss>
